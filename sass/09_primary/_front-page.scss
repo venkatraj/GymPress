@@ -1,0 +1,215 @@
+.home {
+  .site-content {
+      padding-top:0;
+      .site-main {
+        margin-top:0;    
+      }
+  }
+  .site-header {
+    border-bottom: none;
+  }
+}  
+
+.home.blog .site-content {
+    padding-top: 100px;
+}
+.blog {
+    article.post {
+      padding: 40px 0px 40px;
+      .post-thumb {
+        padding-top: 10px;
+      }
+    }
+}
+    
+
+/* Home page service section */
+.services-wrapper {
+  padding: 100px 0px;
+  .service-section {
+     .service-image {
+        width: 70px;
+        float: left;
+        margin-top: 10px;
+        .fa {
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          background-color: $primary;
+          color: $white;
+          @include font-size(1.8);
+          border-radius: 100%;
+        }
+        a {
+          display: block;
+           img {
+               border-radius: 100%;
+           }
+        }
+     }
+     .service-content {
+       float: left;
+       width: calc(100% - 70px);
+        .title-divider {
+           position: relative;
+           &:before {
+              position: absolute;
+              content:"";
+              background-color: $primary;
+              width: 35px;
+              bottom:0;
+              height: 3px;
+           }
+          a {
+            color: $secondary;
+            &:hover {
+              color: $primary;
+            }
+          }
+        } 
+     }
+  }
+  .service-image-section {
+     a {
+        position: relative;
+        display: inline-block;
+        float: right;
+        img {
+          display: block;
+        }
+     }
+  }
+
+}
+
+
+/* Recent Post section */
+.post-wrapper {
+   padding: 100px 0px;
+   background-color: $c2;
+    .latst-post-wrapper {
+        color: $secondary;
+        margin-bottom: 100px;
+        h4 {
+          clear: unset;
+          border-bottom: 1px solid $c1;
+          margin-right: 75px;
+          a {
+            color: $secondary;
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
+        &:nth-of-type(2n+1) {
+          clear: both;
+        }
+        &:nth-last-child(1),&:nth-last-child(2) {
+          margin-bottom:0;
+        }
+        .latest-post {
+           position: relative;
+          background-color: $white;
+        }
+        .latest-post-thumb {
+           display: inline-block;
+           float: left;
+           padding-right: 30px;
+           background-color: $white;
+           img {
+              display: block;
+           }
+        }
+        .latest-post-content-wrapper {
+            padding: 30px 20px 0px 20px;
+            @include font-size(1.4);
+            .entry-meta {
+               margin:0;
+               position: absolute;
+               right: 15px;
+               top: -40px;
+               .data-structure {
+                  padding: 20px 20px 12px;
+                  background-color: $primary;
+                  color: $white;
+                  display: inline-block;
+                  margin-right: 5px;
+               }
+               .month {
+                   @include font-size(1.6);
+                   font-weight: 700;
+               }
+               .dd {
+                   line-height: 2rem;
+                   color: $white;
+                   padding-bottom: 10px;
+                   margin-bottom: 0;
+                   text-align: center;
+                   border-bottom: 1px solid rgba($white,0.7);
+               }
+            }
+        }
+        .latest-post-content {
+          color: $c3;
+          padding-bottom: 20px;
+          h1,h2,h3,h4,h5,h6 {
+            clear: unset;
+             line-height: 1;
+          }
+        }
+                    
+    }   
+
+}
+
+
+/* common to service and post wrapper section */
+.services-wrapper,.post-wrapper {
+  a.more-link {
+     margin-top:0;
+     background-color: transparent;
+     color: $primary;
+     padding-left:0;
+     &:hover {
+        background-color: transparent;
+        color: $secondary;
+     }
+  }
+}
+.services-wrapper {
+  .portfolio-readmore {
+    margin-top: -20px;
+  }
+}
+
+
+/* other pages like 404 */
+.error-404.not-found {
+text-align: center;
+  h1.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    span {
+      color: $c3;
+      display: block;
+    }
+  }
+}
+
+
+.no-results,.not-found {
+    input[type="search"] {
+        float: left;
+        width: 75%;
+    }
+    input[type="submit"] {
+        float: left;
+        width: 20%;
+        position: relative;
+        right: -4px;
+        top: -5px;
+    }
+}
+
+

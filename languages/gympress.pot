@@ -1,0 +1,827 @@
+# Copyright (C) 2017 GymPress
+# This file is distributed under the same license as the GymPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: GymPress\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try to search here?"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35, comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36
+msgid " Previous Comments"
+msgstr ""
+
+#: comments.php:37, comments.php:54
+msgid "Next Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Previous Comments"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:73
+msgid "Post Comments"
+msgstr ""
+
+#: comments.php:75
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:83
+msgid "Name"
+msgstr ""
+
+#: comments.php:88
+msgid "Email"
+msgstr ""
+
+#: comments.php:93
+msgid "Website"
+msgstr ""
+
+#: footer.php:29
+msgid "<p>Powered by <a href=\"%1$s\" target=\"_blank\">WordPress</a>"
+msgstr ""
+
+#: footer.php:31
+msgid "Theme: GymPress by <a href=\"%1$s\" target=\"_blank\" rel=\"designer\">Genex Themes</a></p>"
+msgstr ""
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:134
+msgid "About Theme"
+msgstr ""
+
+#: functions.php:135
+msgid "Gympress Theme elegant and robustly built WordPress theme for posts, Law Firm and Attorney website."
+msgstr ""
+
+#: functions.php:155
+msgid "Company Address"
+msgstr ""
+
+#: functions.php:156
+msgid "Honest Bank, 457 Grand Ave,Los Angels, BA 007<br><strong>Email:</strong> <a href=\"mailto:support@webulous.in\">support@webulous.in</a><br><strong>phone:</strong> 0312 3245 2354<br><strong>Fax:</strong> 158 425 252"
+msgstr ""
+
+#: functions.php:173
+msgid "Post One"
+msgstr ""
+
+#: functions.php:174, functions.php:180
+msgid "<h2>Welcome to WP Theme</h2> Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.<p class=\"portfolio-readmore\"><a class=\"btn btn-mini more-link\" href=\"#\">Read More</a></p>"
+msgstr ""
+
+#: functions.php:179
+msgid "Post Two"
+msgstr ""
+
+#: functions.php:185
+msgid "Service 1"
+msgstr ""
+
+#: functions.php:186, functions.php:192, functions.php:198, functions.php:204
+msgid "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur"
+msgstr ""
+
+#: functions.php:191
+msgid "Service 2"
+msgstr ""
+
+#: functions.php:197
+msgid "Service 3"
+msgstr ""
+
+#: functions.php:203
+msgid "Service Image"
+msgstr ""
+
+#: functions.php:213
+msgid "slider one"
+msgstr ""
+
+#: functions.php:217
+msgid "Page Images"
+msgstr ""
+
+#: functions.php:258
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:267
+msgid "Top Left"
+msgstr ""
+
+#: functions.php:276
+msgid "Top Right"
+msgstr ""
+
+#: functions.php:286
+msgid "Footer %d"
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:35
+msgid "About Author:"
+msgstr ""
+
+#: template-full-width.php:2
+msgid "Full Width Template"
+msgstr ""
+
+#: includes/custom-header.php:83
+msgid "Play background video"
+msgstr ""
+
+#: includes/custom-header.php:84
+msgid "Pause background video"
+msgstr ""
+
+#: includes/enqueue.php:38
+msgctxt "Font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/options-config.php:2
+msgid "Page Builder"
+msgstr ""
+
+#: includes/options-config.php:3
+msgid "Theme supports Page Builder. You can drag and drop our widgets with page builder visual editor."
+msgstr ""
+
+#: includes/options-config.php:4
+msgid "Page Layout"
+msgstr ""
+
+#: includes/options-config.php:5
+msgid "Theme offers many different page layouts so you can quickly and easily create your pages with no hassle!"
+msgstr ""
+
+#: includes/options-config.php:6, includes/options-config.php:314
+msgid "Unlimited Sidebar"
+msgstr ""
+
+#: includes/options-config.php:7
+msgid "Theme includes a different sidebar layouts. Unlimited sidebars allow you to create custom sidebars that match the style and layout of pages!"
+msgstr ""
+
+#: includes/options-config.php:8
+msgid "Custom Widget"
+msgstr ""
+
+#: includes/options-config.php:9
+msgid "We offer many custom widgets that are stylized and ready for use. Simply drag & drop into place to activate!"
+msgstr ""
+
+#: includes/options-config.php:10
+msgid "Multi Portfolio"
+msgstr ""
+
+#: includes/options-config.php:11
+msgid "Theme have a unlimited customization options in portfolio. You can use 2, 3, or 4 Columns with masonry layouts!"
+msgstr ""
+
+#: includes/options-config.php:12
+msgid "Typography"
+msgstr ""
+
+#: includes/options-config.php:13
+msgid "Theme loves typography, you can choose from over 500+ Google Fonts and Standard Fonts to customize your site!"
+msgstr ""
+
+#: includes/options-config.php:14
+msgid "Awesome Sliders"
+msgstr ""
+
+#: includes/options-config.php:15
+msgid "Theme includes Flex and Elastic sliders . You can use flexslider as a image,video and google map anywhere in your site."
+msgstr ""
+
+#: includes/options-config.php:16
+msgid "Woo Commerce"
+msgstr ""
+
+#: includes/options-config.php:17
+msgid "Theme has full design/code integration for WooCommerce, your shop will look as good as the rest of your site!"
+msgstr ""
+
+#: includes/options-config.php:18
+msgid "Retina Ready"
+msgstr ""
+
+#: includes/options-config.php:19
+msgid "Theme is Retina Ready. So, Everything looks amazingly sharp and crisp on high resolution retina displays of all sizes!"
+msgstr ""
+
+#: includes/options-config.php:20
+msgid "Icons"
+msgstr ""
+
+#: includes/options-config.php:21
+msgid " Choose from over 2500 icons are fully integrated into the theme. Use them anywhere in your site with select your own size and color."
+msgstr ""
+
+#: includes/options-config.php:22
+msgid "Excellent Support"
+msgstr ""
+
+#: includes/options-config.php:23
+msgid "We truly care about our customers and themes performance. We assure you that you will get the best after sale support like never before!"
+msgstr ""
+
+#: includes/options-config.php:24
+msgid "Responsive Layout"
+msgstr ""
+
+#: includes/options-config.php:25
+msgid "Theme is fully responsive and can adapt to any screen size. Resize your browser window to view it!"
+msgstr ""
+
+#: includes/options-config.php:26
+msgid "Testimonials"
+msgstr ""
+
+#: includes/options-config.php:27
+msgid "Display your clients' glowing comments about your business on your homepage. Showing a specific number of testimonials with use of testimonial widget. "
+msgstr ""
+
+#: includes/options-config.php:28
+msgid "Social Media"
+msgstr ""
+
+#: includes/options-config.php:29
+msgid "Want your users to stay in touch? No problem, Theme has Social Media icons all throughout the theme!"
+msgstr ""
+
+#: includes/options-config.php:30, includes/options-config.php:284
+msgid "Google Map"
+msgstr ""
+
+#: includes/options-config.php:31
+msgid "Theme includes Goole Map widget. Find a place on the map and get directions. Or get info like business hours and menus, and see Street View imagery."
+msgstr ""
+
+#: includes/options-config.php:32
+msgid "Customization"
+msgstr ""
+
+#: includes/options-config.php:33
+msgid "With advanced theme options, page options & extensive docs, its never been easier to customize a theme!"
+msgstr ""
+
+#: includes/options-config.php:34
+msgid "Demo content"
+msgstr ""
+
+#: includes/options-config.php:35
+msgid "Theme includes single click demo content. You can quickly setup the site like our demo and get started easily!"
+msgstr ""
+
+#: includes/options-config.php:36
+msgid "Improvement"
+msgstr ""
+
+#: includes/options-config.php:37
+msgid "We love our theme and customers. We are committed to improve and add new features to Theme!"
+msgstr ""
+
+#: includes/options-config.php:39
+msgid "View Demo"
+msgstr ""
+
+#: includes/options-config.php:40
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: includes/options-config.php:138
+msgid "GymPress"
+msgstr ""
+
+#: includes/options-config.php:140
+msgid "Upgrade To GymPress Pro"
+msgstr ""
+
+#: includes/options-config.php:168
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: includes/options-config.php:169
+msgid "<div class=\"about-text\"> GymPress is a Free Fitness WordPress theme perfect for Gym, Yoga, Fitness, health, wellness spa, massage center, weight loss, hospital, clinic,restaurants,cafe, physiotherapy, portfolio, photography and more business. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly.</div>"
+msgstr ""
+
+#: includes/options-config.php:171, includes/options-config.php:321
+msgid "Buy %1s Pro"
+msgstr ""
+
+#: includes/options-config.php:175
+msgid "PRO Features"
+msgstr ""
+
+#: includes/options-config.php:176
+msgid "Free VS PRO"
+msgstr ""
+
+#: includes/options-config.php:185
+msgid "Theme Customizer"
+msgstr ""
+
+#: includes/options-config.php:186
+msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to start customize your site."
+msgstr ""
+
+#: includes/options-config.php:188
+msgid "Start Customize"
+msgstr ""
+
+#: includes/options-config.php:192
+msgid "Theme Documentation"
+msgstr ""
+
+#: includes/options-config.php:193
+msgid "Need any help to setup and configure %s? Please have a look at our documentations instructions."
+msgstr ""
+
+#: includes/options-config.php:195
+msgid " Documentation"
+msgstr ""
+
+#: includes/options-config.php:200
+msgid "Having Trouble, Need Support?"
+msgstr ""
+
+#: includes/options-config.php:201
+msgid "Support for %s WordPress theme is conducted through Webulous free support ticket system."
+msgstr ""
+
+#: includes/options-config.php:239
+msgid "Flex Slider"
+msgstr ""
+
+#: includes/options-config.php:244
+msgid "Support"
+msgstr ""
+
+#: includes/options-config.php:249
+msgid "Responsive Design"
+msgstr ""
+
+#: includes/options-config.php:254
+msgid "Custom Logo Option"
+msgstr ""
+
+#: includes/options-config.php:259
+msgid "Social Links"
+msgstr ""
+
+#: includes/options-config.php:264
+msgid "Unlimited color option"
+msgstr ""
+
+#: includes/options-config.php:269
+msgid "Elastic Slider"
+msgstr ""
+
+#: includes/options-config.php:274
+msgid "Page Builder Support"
+msgstr ""
+
+#: includes/options-config.php:279
+msgid "Page Templates"
+msgstr ""
+
+#: includes/options-config.php:289
+msgid "Demo Content"
+msgstr ""
+
+#: includes/options-config.php:294
+msgid "Polylang Compatible"
+msgstr ""
+
+#: includes/options-config.php:299
+msgid "Multiple Portfolio Layouts"
+msgstr ""
+
+#: includes/options-config.php:304
+msgid "Multiple Blog Layouts"
+msgstr ""
+
+#: includes/options-config.php:309
+msgid "Page Animation"
+msgstr ""
+
+#: includes/options-config.php:340, includes/options-config.php:341
+msgid "Theme Options"
+msgstr ""
+
+#: includes/options-config.php:344
+msgid "General"
+msgstr ""
+
+#: includes/options-config.php:345
+msgid "General settings that affects overall site"
+msgstr ""
+
+#: includes/options-config.php:349
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: includes/options-config.php:355
+msgid "Select Breadcrumb Character"
+msgstr ""
+
+#: includes/options-config.php:366
+msgid "Enable Numeric Page Navigation"
+msgstr ""
+
+#: includes/options-config.php:367
+msgid "Check to display numeric page navigation, instead of Previous Posts / Next Posts links."
+msgstr ""
+
+#: includes/options-config.php:373
+msgid "Website Layout Options"
+msgstr ""
+
+#: includes/options-config.php:374
+msgid "Select main content and sidebar alignment."
+msgstr ""
+
+#: includes/options-config.php:376
+msgid "Sidebar Left"
+msgstr ""
+
+#: includes/options-config.php:377
+msgid "Sidebar Right"
+msgstr ""
+
+#: includes/options-config.php:378
+msgid "Full Width"
+msgstr ""
+
+#: includes/options-config.php:379
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/options-config.php:387
+msgid "Header"
+msgstr ""
+
+#: includes/options-config.php:388
+msgid "Header options"
+msgstr ""
+
+#: includes/options-config.php:392
+msgid "Logo as Title"
+msgstr ""
+
+#: includes/options-config.php:398
+msgid "Show site Tagline"
+msgstr ""
+
+#: includes/options-config.php:405
+msgid "Footer"
+msgstr ""
+
+#: includes/options-config.php:406
+msgid "Footer related options"
+msgstr ""
+
+#: includes/options-config.php:410
+msgid "Footer Widget Area"
+msgstr ""
+
+#: includes/options-config.php:416
+msgid "Footer Copyright Text (Validated that it's HTML Allowed)"
+msgstr ""
+
+#: includes/options-config.php:417
+msgid "HTML Allowed. <b>This field is even HTML validated! </b>"
+msgstr ""
+
+#: includes/options-config.php:423
+msgid "Home"
+msgstr ""
+
+#: includes/options-config.php:424
+msgid "Home Page options"
+msgstr ""
+
+#: includes/options-config.php:428
+msgid "Enable Home Page Slider Section"
+msgstr ""
+
+#: includes/options-config.php:434
+msgid "Slider Posts Category"
+msgstr ""
+
+#: includes/options-config.php:439
+msgid "No. of Sliders"
+msgstr ""
+
+#: includes/options-config.php:445
+msgid "Enable Home Page Service Section"
+msgstr ""
+
+#: includes/options-config.php:451
+msgid "Choose Service Section Icons #1"
+msgstr ""
+
+#: includes/options-config.php:456
+msgid "Service Section #1"
+msgstr ""
+
+#: includes/options-config.php:461
+msgid "Choose Service Section Icons #2"
+msgstr ""
+
+#: includes/options-config.php:466
+msgid "Service Section #2"
+msgstr ""
+
+#: includes/options-config.php:471
+msgid "Choose Service Section Icons #3"
+msgstr ""
+
+#: includes/options-config.php:476
+msgid "Service Section #3"
+msgstr ""
+
+#: includes/options-config.php:481
+msgid "Service Image Section"
+msgstr ""
+
+#: includes/options-config.php:486
+msgid "Enable Home Page Recent Post Section"
+msgstr ""
+
+#: includes/options-config.php:487
+msgid "Enable recent post section in home page"
+msgstr ""
+
+#: includes/options-config.php:493
+msgid "No. of Recent Posts"
+msgstr ""
+
+#: includes/options-config.php:499
+msgid "Enable Home Page Default Content"
+msgstr ""
+
+#: includes/options-config.php:500
+msgid "Enable home page default content"
+msgstr ""
+
+#: includes/options-config.php:507
+msgid "Blog"
+msgstr ""
+
+#: includes/options-config.php:508
+msgid "Blog Related Posts options"
+msgstr ""
+
+#: includes/options-config.php:512
+msgid "Enable Featured Image"
+msgstr ""
+
+#: includes/options-config.php:518
+msgid "Choose the featured image display type for Blog Page "
+msgstr ""
+
+#: includes/options-config.php:520, includes/options-config.php:536
+msgid "Large Featured Image"
+msgstr ""
+
+#: includes/options-config.php:521, includes/options-config.php:537
+msgid "Small Featured Image"
+msgstr ""
+
+#: includes/options-config.php:528
+msgid "Enable Single Post Featured Image"
+msgstr ""
+
+#: includes/options-config.php:534
+msgid "Choose the featured image display type for Single Page "
+msgstr ""
+
+#: includes/options-config.php:544
+msgid " Enable Author Bio Box below single post"
+msgstr ""
+
+#: includes/options-config.php:545
+msgid "Show Author information box below single post."
+msgstr ""
+
+#: includes/options-config.php:551
+msgid "Show Related posts"
+msgstr ""
+
+#: includes/options-config.php:552
+msgid "Show related posts."
+msgstr ""
+
+#: includes/options-config.php:558
+msgid "Related Posts Must Be Shown As:"
+msgstr ""
+
+#: includes/options-config.php:560
+msgid "Related Posts By Tags"
+msgstr ""
+
+#: includes/options-config.php:561
+msgid "Related Posts By Categories"
+msgstr ""
+
+#: includes/options-config.php:568
+msgid " Show Comments"
+msgstr ""
+
+#: includes/options-config.php:569
+msgid "Show Comments"
+msgstr ""
+
+#: includes/template-tags.php:25
+msgid "Post navigation"
+msgstr ""
+
+#: includes/template-tags.php:28
+msgid "previous post"
+msgstr ""
+
+#: includes/template-tags.php:28
+msgctxt "Previous post link"
+msgid "%title"
+msgstr ""
+
+#: includes/template-tags.php:29
+msgid "next post"
+msgstr ""
+
+#: includes/template-tags.php:29
+msgctxt "Next post link"
+msgid "%title&nbsp;"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: includes/template-tags.php:47, includes/template-tags.php:53
+msgid " "
+msgstr ""
+
+#: includes/template-tags.php:49, includes/template-tags.php:55, includes/template-tags.php:124
+msgid "%1$s "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: includes/template-tags.php:122
+msgid ", "
+msgstr ""
+
+#: includes/template-tags.php:197
+msgid "<i class=\"fa fa-home\"></i>"
+msgstr ""
+
+#: includes/template-tags.php:198
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: includes/template-tags.php:199
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: includes/template-tags.php:200
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: includes/template-tags.php:201
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: includes/template-tags.php:202
+msgid "Error 404"
+msgstr ""
+
+#: includes/template-tags.php:255, includes/template-tags.php:255, includes/template-tags.php:256, includes/template-tags.php:260, includes/template-tags.php:260, includes/template-tags.php:264
+msgid "Y"
+msgstr ""
+
+#: includes/template-tags.php:256
+msgid "m"
+msgstr ""
+
+#: includes/template-tags.php:256, includes/template-tags.php:261
+msgid "F"
+msgstr ""
+
+#: includes/template-tags.php:257
+msgid "d"
+msgstr ""
+
+#: includes/template-tags.php:327
+msgid "Page"
+msgstr ""
+
+#: includes/template-tags.php:348
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#: includes/template-tags.php:368
+msgid "No Comments"
+msgstr ""
+
+#: includes/template-tags.php:370
+msgid " Comments"
+msgstr ""
+
+#: includes/template-tags.php:372
+msgid "1 Comment"
+msgstr ""
+
+#: includes/template-tags.php:376
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/template-tags.php:385, template-parts/content-page.php:29
+msgid "Edit"
+msgstr ""
+
+#: includes/template-tags.php:432, includes/template-tags.php:435
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: includes/template-tags.php:463
+msgid "ReadMore"
+msgstr ""
+
+#: includes/template-tags.php:499
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr ""
+
+#: includes/template-tags.php:500
+msgid "Get started with GymPress"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:23
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:38, template-parts/content.php:48
+msgid "Pages: "
+msgstr ""
+
+#: template-parts/content.php:40
+msgid "Read More"
+msgstr ""
