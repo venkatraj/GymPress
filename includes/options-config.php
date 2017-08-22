@@ -168,7 +168,7 @@ function gympress_display_upgrade() {
         <h1><?php printf(esc_html__('Welcome to %1$s - Version %2$s', 'gympress'), $theme_data->Name ,$theme_data->Version ); ?></h1><?php
        	printf( __('<div class="about-text"> GymPress is a Free Fitness WordPress theme perfect for Gym, Yoga, Fitness, health, wellness spa, massage center, weight loss, hospital, clinic,restaurants,cafe, physiotherapy, portfolio, photography and more business. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly.</div>', 'gympress') ); ?>
         <a href="https://genexthemes.com/" target="_blank" class="wp-badge welcome-logo"></a>   
-        <p class="upgrade-btn"><a class="upgrade" href="<?php echo esc_url($pro_theme_url); ?>" target="_blank"><?php printf( __( 'Buy %1s Pro', 'gympress'), $theme_data->Name ); ?></a></p>
+        <p class="upgrade-btn"><a class="upgrade" href="<?php echo esc_url($pro_theme_url); ?>" target="_blank"><?php printf( __( 'Buy %1s Pro - $39', 'gympress'), $theme_data->Name ); ?></a></p>
 
 	   <h2 class="nav-tab-wrapper">
 	        <a href="?page=gympress_upgrade" class="nav-tab<?php echo is_null($tab) ? ' nav-tab-active' : null; ?>"><?php echo $theme_data->Name; ?></a>

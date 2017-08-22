@@ -36,7 +36,12 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 								    		<?php the_post_thumbnail('full'); ?>
 								    	</div>
 								    	<div class="flex-caption">
-								    		<?php the_content(); ?>
+								    		<?php the_content(); 
+												wp_link_pages( array(
+													'before' => '<div class="page-links">' . esc_html__( 'Pages: ', 'gympress' ),
+													'after'  => '</div>',
+												) );
+											?>
 								    	</div>
 								    </li>
 							    <?php endif;?>			   
@@ -99,7 +104,11 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 							    	<?php endif; ?>
 							    	<div class="service-content">
 							    	    <?php the_title( sprintf( '<h4 class="title-divider"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h4>' ); ?>
-								    	<?php the_content(); ?>
+								    	<?php the_content(); 
+								    	wp_link_pages( array(
+											'before' => '<div class="page-links">' . esc_html__( 'Pages: ', 'gympress' ),
+											'after'  => '</div>',
+										) ); ?>
 							    	</div>
 							    </div>
 							<?php $i++;
@@ -138,6 +147,10 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 					<main id="main" class="site-main" role="main"><?php
 						while ( have_posts() ) : the_post();       
 							the_content();
+							wp_link_pages( array(
+								'before' => '<div class="page-links">' . esc_html__( 'Pages: ', 'gympress' ),
+								'after'  => '</div>',
+							) );
 						endwhile; ?>
 				    </main><!-- #main -->
 			    </div><!-- #primary -->

@@ -1,1 +1,8 @@
-!function(e){e(function(){e(".flexslider").flexslider()})}(jQuery);
+(function($){
+
+	$(function(){
+		$('.flexslider').flexslider();   
+	});
+
+
+})(jQuery);

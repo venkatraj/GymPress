@@ -76,6 +76,10 @@ msgstr ""
 msgid "Theme: GymPress by <a href=\"%1$s\" target=\"_blank\" rel=\"designer\">Genex Themes</a></p>"
 msgstr ""
 
+#: front-page.php:41, front-page.php:109, front-page.php:151, includes/template-tags.php:169, template-parts/content-single.php:38, template-parts/content.php:48
+msgid "Pages: "
+msgstr ""
+
 #: functions.php:53
 msgid "Primary Menu"
 msgstr ""
@@ -713,88 +717,88 @@ msgstr ""
 msgid ", "
 msgstr ""
 
-#: includes/template-tags.php:197
+#: includes/template-tags.php:199
 msgid "<i class=\"fa fa-home\"></i>"
 msgstr ""
 
-#: includes/template-tags.php:198
+#: includes/template-tags.php:200
 msgid "Archive by Category \"%s\""
 msgstr ""
 
-#: includes/template-tags.php:199
+#: includes/template-tags.php:201
 msgid "Search Results for \"%s\" Query"
 msgstr ""
 
-#: includes/template-tags.php:200
+#: includes/template-tags.php:202
 msgid "Posts Tagged \"%s\""
 msgstr ""
 
-#: includes/template-tags.php:201
+#: includes/template-tags.php:203
 msgid "Articles Posted by %s"
 msgstr ""
 
-#: includes/template-tags.php:202
+#: includes/template-tags.php:204
 msgid "Error 404"
 msgstr ""
 
-#: includes/template-tags.php:255, includes/template-tags.php:255, includes/template-tags.php:256, includes/template-tags.php:260, includes/template-tags.php:260, includes/template-tags.php:264
+#: includes/template-tags.php:257, includes/template-tags.php:257, includes/template-tags.php:258, includes/template-tags.php:262, includes/template-tags.php:262, includes/template-tags.php:266
 msgid "Y"
 msgstr ""
 
-#: includes/template-tags.php:256
+#: includes/template-tags.php:258
 msgid "m"
 msgstr ""
 
-#: includes/template-tags.php:256, includes/template-tags.php:261
+#: includes/template-tags.php:258, includes/template-tags.php:263
 msgid "F"
 msgstr ""
 
-#: includes/template-tags.php:257
+#: includes/template-tags.php:259
 msgid "d"
 msgstr ""
 
-#: includes/template-tags.php:327
+#: includes/template-tags.php:329
 msgid "Page"
 msgstr ""
 
-#: includes/template-tags.php:348
+#: includes/template-tags.php:350
 msgctxt "post author"
 msgid " %s"
 msgstr ""
 
-#: includes/template-tags.php:368
+#: includes/template-tags.php:370
 msgid "No Comments"
 msgstr ""
 
-#: includes/template-tags.php:370
+#: includes/template-tags.php:372
 msgid " Comments"
 msgstr ""
 
-#: includes/template-tags.php:372
+#: includes/template-tags.php:374
 msgid "1 Comment"
 msgstr ""
 
-#: includes/template-tags.php:376
+#: includes/template-tags.php:378
 msgid "Leave a comment"
 msgstr ""
 
-#: includes/template-tags.php:385, template-parts/content-page.php:29
+#: includes/template-tags.php:387, template-parts/content-page.php:29
 msgid "Edit"
 msgstr ""
 
-#: includes/template-tags.php:432, includes/template-tags.php:435
+#: includes/template-tags.php:434, includes/template-tags.php:437
 msgid "No Related Posts Yet!"
 msgstr ""
 
-#: includes/template-tags.php:463
+#: includes/template-tags.php:465
 msgid "ReadMore"
 msgstr ""
 
-#: includes/template-tags.php:499
+#: includes/template-tags.php:501
 msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
 msgstr ""
 
-#: includes/template-tags.php:500
+#: includes/template-tags.php:502
 msgid "Get started with GymPress"
 msgstr ""
 
@@ -816,10 +820,6 @@ msgstr ""
 
 #: template-parts/content-page.php:23
 msgid "Pages:"
-msgstr ""
-
-#: template-parts/content-single.php:38, template-parts/content.php:48
-msgid "Pages: "
 msgstr ""
 
 #: template-parts/content.php:40

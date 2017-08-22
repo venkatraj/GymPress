@@ -4,7 +4,7 @@ Theme URI: http://www.genexthemes.com/gympress/
 Author: V. Uma Rani
 Author URI: http://www.genexthemes.com/
 Description: GymPress is a Free Fitness WordPress theme perfect for Gym, Yoga, Fitness, health, wellness spa, massage center, weight loss, hospital, clinic,restaurants,cafe, physiotherapy, portfolio, photography and more business. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly.
-Version: 1.0.1      
+Version: 1.0.2      
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: gympress
@@ -1760,7 +1760,7 @@ blockquote, q {
   margin: 0;
   font-size: 20px;
   font-size: 2rem;
-  padding: 0 10px 0 40px;
+  padding: 20px 10px 20px 40px;
   border-radius: 3px; }
   blockquote:before, q:before {
     position: absolute;
@@ -1768,14 +1768,13 @@ blockquote, q {
     font-size: 22px;
     font-size: 2.2rem;
     font-family: 'FontAwesome';
-    left: 20px;
+    left: 10px;
     top: 20px;
     color: #676767; }
   blockquote p, q p {
     margin-bottom: 0;
     font-size: 20px;
     font-size: 2rem;
-    padding: 20px;
     color: #676767;
     position: relative; }
     blockquote p cite, q p cite {

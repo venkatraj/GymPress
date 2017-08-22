@@ -157,7 +157,6 @@ if( ! function_exists('gympress_recent_posts') ) {
 				$query->the_post();
 				$output .= '<div class="eight columns latst-post-wrapper">';
 				$output .= '<div class="latest-post clearfix">';
-						
 						if ( has_post_thumbnail() ) {
 							$output .= '<div class="latest-post-thumb">'; 
 							$output .= get_the_post_thumbnail($query->post->ID ,'gympress-recent-posts-img');
@@ -166,10 +165,13 @@ if( ! function_exists('gympress_recent_posts') ) {
 						$output .= '<div class="latest-post-content-wrapper">';
 						$output .= '<h4><a href="'. esc_url(get_permalink()) . '">' . get_the_title() . '</a></h4>';
 						$output .= '<div class="latest-post-content">' . get_the_content() . '</div>';
+						$output .= wp_link_pages( array(
+							'before' => '<div class="page-links">' . esc_html__( 'Pages: ', 'gympress' ),
+							'after'  => '</div>',
+							'echo' => false,
+						) );
 						$output .='<div class="entry-meta">';
 							$output .='<span class="data-structure"><h2 class="dd">' . get_the_time('j').'</h2><span class="month">' . get_the_time('F').'</span></span>';
-							//$output .= gympress_get_author();
-							//$output .= gympress_get_comments_meta();
 						$output .='</div><!-- entry-meta -->';
 					$output .= '</div><!-- .latest-post-content -->';
 					$output .= '</div>';	
@@ -324,7 +326,7 @@ if( ! function_exists('gympress_recent_posts') ) {
 
 			if ( get_query_var('paged') ) {
 				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
-				echo __('Page', 'gympress' ) . ' ' . get_query_var('paged');
+				 _e('Page', 'gympress' ) . ' ' . get_query_var('paged');
 				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
 			}
 

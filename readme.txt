@@ -3,7 +3,7 @@ Contributors: Genex
 Tags: custom-menu, featured-images, fixed-layout, responsive-layout, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, blog
 Requires at least: 4.0
 Tested up to: 4.8.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -46,12 +46,12 @@ Enable/Disable featured images visibility.
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.2 =
 * Initial Release
 
 == Upgrade Notice ==
 
-=  1.0.1 =
+=  1.0.2 =
 * Initial Release
 
 GymPress WordPress Theme bundles the following third-party resources:
