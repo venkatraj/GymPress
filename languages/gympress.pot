@@ -1,4 +1,4 @@
-# Copyright (C) 2017 GymPress
+# Copyright (C) 2018 GymPress
 # This file is distributed under the same license as the GymPress package.
 msgid ""
 msgstr ""
@@ -28,7 +28,7 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:35, comments.php:52
+#: comments.php:35, comments.php:53
 msgid "Comment navigation"
 msgstr ""
 
@@ -36,35 +36,35 @@ msgstr ""
 msgid " Previous Comments"
 msgstr ""
 
-#: comments.php:37, comments.php:54
+#: comments.php:37, comments.php:55
 msgid "Next Comments"
 msgstr ""
 
-#: comments.php:53
+#: comments.php:54
 msgid "Previous Comments"
 msgstr ""
 
-#: comments.php:64
+#: comments.php:65
 msgid "Comments are closed."
 msgstr ""
 
-#: comments.php:73
+#: comments.php:74
 msgid "Post Comments"
 msgstr ""
 
-#: comments.php:75
+#: comments.php:76
 msgid "Leave a Comment"
 msgstr ""
 
-#: comments.php:83
+#: comments.php:84
 msgid "Name"
 msgstr ""
 
-#: comments.php:88
+#: comments.php:89
 msgid "Email"
 msgstr ""
 
-#: comments.php:93
+#: comments.php:94
 msgid "Website"
 msgstr ""
 
@@ -76,7 +76,11 @@ msgstr ""
 msgid "Theme: GymPress by <a href=\"%1$s\" target=\"_blank\" rel=\"designer\">Genex Themes</a></p>"
 msgstr ""
 
-#: front-page.php:41, front-page.php:109, front-page.php:151, includes/template-tags.php:169, template-parts/content-single.php:38, template-parts/content.php:48
+#: front-page.php:41, template-parts/content.php:40
+msgid "Read More"
+msgstr ""
+
+#: front-page.php:43, front-page.php:111, front-page.php:153, includes/template-tags.php:171, template-parts/content-single.php:38, template-parts/content.php:48
 msgid "Pages: "
 msgstr ""
 
@@ -353,8 +357,8 @@ msgstr ""
 msgid "<div class=\"about-text\"> GymPress is a Free Fitness WordPress theme perfect for Gym, Yoga, Fitness, health, wellness spa, massage center, weight loss, hospital, clinic,restaurants,cafe, physiotherapy, portfolio, photography and more business. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly.</div>"
 msgstr ""
 
-#: includes/options-config.php:171, includes/options-config.php:321
-msgid "Buy %1s Pro"
+#: includes/options-config.php:171
+msgid "Buy %1s Pro - $39"
 msgstr ""
 
 #: includes/options-config.php:175
@@ -451,6 +455,10 @@ msgstr ""
 
 #: includes/options-config.php:309
 msgid "Page Animation"
+msgstr ""
+
+#: includes/options-config.php:321
+msgid "Buy %1s Pro"
 msgstr ""
 
 #: includes/options-config.php:340, includes/options-config.php:341
@@ -606,78 +614,86 @@ msgid "No. of Recent Posts"
 msgstr ""
 
 #: includes/options-config.php:499
-msgid "Enable Home Page Default Content"
+msgid "Exclude the Posts from Home Page.Post IDs, separated by commas"
 msgstr ""
 
 #: includes/options-config.php:500
+msgid "Post IDs, separated by commas."
+msgstr ""
+
+#: includes/options-config.php:505
+msgid "Enable Home Page Default Content"
+msgstr ""
+
+#: includes/options-config.php:506
 msgid "Enable home page default content"
 msgstr ""
 
-#: includes/options-config.php:507
+#: includes/options-config.php:513
 msgid "Blog"
 msgstr ""
 
-#: includes/options-config.php:508
+#: includes/options-config.php:514
 msgid "Blog Related Posts options"
 msgstr ""
 
-#: includes/options-config.php:512
+#: includes/options-config.php:518
 msgid "Enable Featured Image"
 msgstr ""
 
-#: includes/options-config.php:518
+#: includes/options-config.php:524
 msgid "Choose the featured image display type for Blog Page "
 msgstr ""
 
-#: includes/options-config.php:520, includes/options-config.php:536
+#: includes/options-config.php:526, includes/options-config.php:542
 msgid "Large Featured Image"
 msgstr ""
 
-#: includes/options-config.php:521, includes/options-config.php:537
+#: includes/options-config.php:527, includes/options-config.php:543
 msgid "Small Featured Image"
 msgstr ""
 
-#: includes/options-config.php:528
+#: includes/options-config.php:534
 msgid "Enable Single Post Featured Image"
 msgstr ""
 
-#: includes/options-config.php:534
+#: includes/options-config.php:540
 msgid "Choose the featured image display type for Single Page "
 msgstr ""
 
-#: includes/options-config.php:544
+#: includes/options-config.php:550
 msgid " Enable Author Bio Box below single post"
 msgstr ""
 
-#: includes/options-config.php:545
+#: includes/options-config.php:551
 msgid "Show Author information box below single post."
 msgstr ""
 
-#: includes/options-config.php:551
+#: includes/options-config.php:557
 msgid "Show Related posts"
 msgstr ""
 
-#: includes/options-config.php:552
+#: includes/options-config.php:558
 msgid "Show related posts."
 msgstr ""
 
-#: includes/options-config.php:558
+#: includes/options-config.php:564
 msgid "Related Posts Must Be Shown As:"
 msgstr ""
 
-#: includes/options-config.php:560
+#: includes/options-config.php:566
 msgid "Related Posts By Tags"
 msgstr ""
 
-#: includes/options-config.php:561
+#: includes/options-config.php:567
 msgid "Related Posts By Categories"
 msgstr ""
 
-#: includes/options-config.php:568
+#: includes/options-config.php:574
 msgid " Show Comments"
 msgstr ""
 
-#: includes/options-config.php:569
+#: includes/options-config.php:575
 msgid "Show Comments"
 msgstr ""
 
@@ -717,88 +733,88 @@ msgstr ""
 msgid ", "
 msgstr ""
 
-#: includes/template-tags.php:199
+#: includes/template-tags.php:201
 msgid "<i class=\"fa fa-home\"></i>"
 msgstr ""
 
-#: includes/template-tags.php:200
+#: includes/template-tags.php:202
 msgid "Archive by Category \"%s\""
 msgstr ""
 
-#: includes/template-tags.php:201
+#: includes/template-tags.php:203
 msgid "Search Results for \"%s\" Query"
 msgstr ""
 
-#: includes/template-tags.php:202
+#: includes/template-tags.php:204
 msgid "Posts Tagged \"%s\""
 msgstr ""
 
-#: includes/template-tags.php:203
+#: includes/template-tags.php:205
 msgid "Articles Posted by %s"
 msgstr ""
 
-#: includes/template-tags.php:204
+#: includes/template-tags.php:206
 msgid "Error 404"
 msgstr ""
 
-#: includes/template-tags.php:257, includes/template-tags.php:257, includes/template-tags.php:258, includes/template-tags.php:262, includes/template-tags.php:262, includes/template-tags.php:266
+#: includes/template-tags.php:259, includes/template-tags.php:259, includes/template-tags.php:260, includes/template-tags.php:264, includes/template-tags.php:264, includes/template-tags.php:268
 msgid "Y"
 msgstr ""
 
-#: includes/template-tags.php:258
+#: includes/template-tags.php:260
 msgid "m"
 msgstr ""
 
-#: includes/template-tags.php:258, includes/template-tags.php:263
+#: includes/template-tags.php:260, includes/template-tags.php:265
 msgid "F"
 msgstr ""
 
-#: includes/template-tags.php:259
+#: includes/template-tags.php:261
 msgid "d"
 msgstr ""
 
-#: includes/template-tags.php:329
+#: includes/template-tags.php:331
 msgid "Page"
 msgstr ""
 
-#: includes/template-tags.php:350
+#: includes/template-tags.php:352
 msgctxt "post author"
 msgid " %s"
 msgstr ""
 
-#: includes/template-tags.php:370
+#: includes/template-tags.php:372
 msgid "No Comments"
 msgstr ""
 
-#: includes/template-tags.php:372
+#: includes/template-tags.php:374
 msgid " Comments"
 msgstr ""
 
-#: includes/template-tags.php:374
+#: includes/template-tags.php:376
 msgid "1 Comment"
 msgstr ""
 
-#: includes/template-tags.php:378
+#: includes/template-tags.php:380
 msgid "Leave a comment"
 msgstr ""
 
-#: includes/template-tags.php:387, template-parts/content-page.php:29
+#: includes/template-tags.php:389, template-parts/content-page.php:29
 msgid "Edit"
 msgstr ""
 
-#: includes/template-tags.php:434, includes/template-tags.php:437
+#: includes/template-tags.php:436, includes/template-tags.php:439
 msgid "No Related Posts Yet!"
 msgstr ""
 
-#: includes/template-tags.php:465
+#: includes/template-tags.php:467
 msgid "ReadMore"
 msgstr ""
 
-#: includes/template-tags.php:501
+#: includes/template-tags.php:503
 msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
 msgstr ""
 
-#: includes/template-tags.php:502
+#: includes/template-tags.php:504
 msgid "Get started with GymPress"
 msgstr ""
 
@@ -820,8 +836,4 @@ msgstr ""
 
 #: template-parts/content-page.php:23
 msgid "Pages:"
-msgstr ""
-
-#: template-parts/content.php:40
-msgid "Read More"
 msgstr ""

@@ -4,7 +4,7 @@ Theme URI: http://www.genexthemes.com/gympress/
 Author: V. Uma Rani
 Author URI: http://www.genexthemes.com/
 Description: GymPress is a Free Fitness WordPress theme perfect for Gym, Yoga, Fitness, health, wellness spa, massage center, weight loss, hospital, clinic,restaurants,cafe, physiotherapy, portfolio, photography and more business. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly.
-Version: 1.0.3     
+Version: 1.0.4      
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: gympress
@@ -661,7 +661,6 @@ input[type="submit"] {
   padding: 1em 1.5em;
   color: #fff;
   font-weight: 700;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
 button:hover,
@@ -782,7 +781,6 @@ dd {
 a {
   color: #1fce6d;
   text-decoration: none;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   a:visited {
     color: #1fce6d; }
@@ -2079,13 +2077,10 @@ blockquote, q {
   text-align: center;
   z-index: 100;
   /* ff3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(19, 19, 19, 0)), color-stop(0%, rgba(19, 19, 19, 0)), color-stop(5%, rgba(19, 19, 19, 0)), color-stop(10%, rgba(19, 19, 19, 0.1)), color-stop(43%, rgba(19, 19, 19, 0.4)), color-stop(43%, rgba(19, 19, 19, 0.4)), color-stop(47%, rgba(19, 19, 19, 0.38)), color-stop(89%, rgba(18, 17, 18, 0.15)), color-stop(98%, rgba(18, 17, 18, 0)), color-stop(100%, rgba(18, 17, 18, 0)), color-stop(100%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(18, 17, 18, 0)));
   /* safari4+,chrome */
-  background: -webkit-linear-gradient(0deg, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 5%, rgba(19, 19, 19, 0.1) 10%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.38) 47%, rgba(18, 17, 18, 0.15) 89%, rgba(18, 17, 18, 0) 98%, rgba(18, 17, 18, 0) 100%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.1) 100%, rgba(18, 17, 18, 0) 100%);
   /* safari5.1+,chrome10+ */
   /* opera 11.10+ */
   /* ie10+ */
-  background: -webkit-linear-gradient(left, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 5%, rgba(19, 19, 19, 0.1) 10%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.38) 47%, rgba(18, 17, 18, 0.15) 89%, rgba(18, 17, 18, 0) 98%, rgba(18, 17, 18, 0) 100%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.1) 100%, rgba(18, 17, 18, 0) 100%);
   background: linear-gradient(90deg, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 5%, rgba(19, 19, 19, 0.1) 10%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.38) 47%, rgba(18, 17, 18, 0.15) 89%, rgba(18, 17, 18, 0) 98%, rgba(18, 17, 18, 0) 100%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.1) 100%, rgba(18, 17, 18, 0) 100%);
   /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#121112',GradientType=1 );
@@ -2132,7 +2127,6 @@ blockquote, q {
 .woocommerce table.cart input,
 .woocommerce-page #content table.cart input,
 .woocommerce-page table.cart input {
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
 .woocommerce #content input.button,
@@ -2175,9 +2169,7 @@ blockquote, q {
   background: #272727 !important;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #272727), color-stop(100%, #45484d)) !important;
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #272727 0%, #45484d 100%) !important;
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2201,9 +2193,7 @@ blockquote, q {
   background: #666 !important;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #45484d), color-stop(100%, #45484d)) !important;
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #666 0%, #45484d 100%) !important;
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2233,9 +2223,7 @@ blockquote, q {
   background: #f2f9fe;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f9fe), color-stop(100%, #d6f0fd));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2273,9 +2261,7 @@ blockquote, q {
   background: #f2f9fe;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f9fe), color-stop(100%, #d6f0fd));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2317,9 +2303,7 @@ blockquote, q {
   background: #fceabb;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fceabb), color-stop(50%, #fccd4d), color-stop(51%, #f8b500), color-stop(100%, #fbdf93));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2685,7 +2669,6 @@ blockquote, q {
   list-style: none;
   background: url("images/sidebar-icon.png") no-repeat left 18px;
   padding-left: 15px;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   color: #676767; }
   .widget-area ul li li {
@@ -2932,7 +2915,6 @@ blockquote, q {
     .site-footer .footer-widgets ul li {
       padding-bottom: 5px;
       padding-top: 5px;
-      -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; }
     .site-footer .footer-widgets ul.children,
     .site-footer .footer-widgets .widget_nav_menu ul.sub-menu {

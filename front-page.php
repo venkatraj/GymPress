@@ -35,14 +35,16 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 								    	    <div class="gym-slide-overlay"></div>
 								    		<?php the_post_thumbnail('full'); ?>
 								    	</div>
-								    	<div class="flex-caption">
-								    		<?php the_content(); 
-												wp_link_pages( array(
+										<?php $content = get_the_content();
+								    	if( !empty( $content ) ) { ?>
+								    		<div class="flex-caption">
+									    		<?php the_content( __('Read More','gympress') ); 
+										    	wp_link_pages( array(
 													'before' => '<div class="page-links">' . esc_html__( 'Pages: ', 'gympress' ),
 													'after'  => '</div>',
-												) );
-											?>
-								    	</div>
+												) ); ?>
+								    		</div>
+								    	<?php } ?>
 								    </li>
 							    <?php endif;?>			   
 						<?php endwhile; ?>

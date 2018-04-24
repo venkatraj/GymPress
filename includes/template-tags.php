@@ -135,6 +135,7 @@ if( ! function_exists('gympress_recent_posts') ) {
 	function gympress_recent_posts() {      
 		$output = '';
 		$posts_per_page  = get_theme_mod('recent_posts_count', 6 );
+		$post_ID  = explode (',',get_theme_mod('recent_posts_exclude'));
 		// WP_Query arguments
 		$args = array (
 			'post_type'              => 'post',
@@ -142,6 +143,7 @@ if( ! function_exists('gympress_recent_posts') ) {
 			'posts_per_page'         => intval($posts_per_page),
 			'ignore_sticky_posts'    => true,
 			'order'                  => 'DESC',
+			'post__not_in'           => $post_ID,
 		);
 
 		// The Query
