@@ -4,11 +4,11 @@ Theme URI: http://www.genexthemes.com/gympress/
 Author: V. Uma Rani
 Author URI: http://www.genexthemes.com/
 Description: GymPress is a Free Fitness WordPress theme perfect for Gym, Yoga, Fitness, health, wellness spa, massage center, weight loss, hospital, clinic,restaurants,cafe, physiotherapy, portfolio, photography and more business. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly.
-Version: 1.0.4      
+Version: 1.0.5  
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: gympress
-Tags: e-commerce, blog, custom-menu, custom-background, custom-header, custom-logo, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, one-column, footer-widgets, full-width-template, translation-ready, theme-options
+Tags: e-commerce, blog, custom-menu, custom-background, custom-header, custom-logo, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, one-column, footer-widgets, full-width-template, theme-options
          
 GymPress WordPress Theme, Copyright (C) 2017, V. Uma Rani
 GymPress is distributed under the terms of the GNU GPL
@@ -926,14 +926,14 @@ a {
 
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
-.post-navigation .nav-previous {
+.post-navigation .nav-previous, .posts-navigation .nav-previous {
   float: left;
   width: 48%;
   margin: 1%; }
 
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
-.post-navigation .nav-next {
+.post-navigation .nav-next, .posts-navigation .nav-next {
   float: right;
   text-align: right;
   width: 47%;
@@ -1433,16 +1433,16 @@ object {
   .share-box ul li {
     border: 0;
     padding: 0;
-    margin: 0 8px 0px 0px;
+    margin: 0 10px 0px 0px;
     display: inline-block; }
     .share-box ul li a {
-      width: 30px;
-      height: 30px;
+      width: 35px;
+      height: 35px;
       color: #131313;
       display: inline-block;
       background-color: #131313;
       text-align: center;
-      line-height: 30px;
+      line-height: 35px;
       -webkit-transform: rotate(45deg);
               transform: rotate(45deg);
       color: #fff; }
@@ -1453,8 +1453,7 @@ object {
         -webkit-transform: rotate(-45deg);
                 transform: rotate(-45deg);
         font-size: 14px;
-        font-size: 1.4rem;
-        line-height: 2; }
+        font-size: 1.4rem; }
 
 .share-box {
   margin-bottom: 50px; }
@@ -2964,6 +2963,23 @@ blockquote, q {
       list-style: none; }
     .site-footer .footer-widgets .widget_rss ul li {
       background: none; }
+  .site-footer .scroll-to-top {
+    background: #1fce6d;
+    color: #fff;
+    bottom: 3%;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    z-index: 999;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    border-radius: 4px;
+    transition: background-color 0.3s linear; }
+  .site-footer .scroll-to-top:hover {
+    background: rgba(31, 206, 109, 0.8); }
 
 .site-info {
   background: rgba(255, 255, 255, 0.1); }

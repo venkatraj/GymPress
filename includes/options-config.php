@@ -257,7 +257,7 @@ function gympress_display_upgrade() {
 		                    </tr>
 		                    <tr>
 		                         <td><h3><?php _e('Social Links', 'gympress'); ?></h3></td>
-		                         <td class="only-pro"><span class="dashicons-before dashicons-no-alt"></span></td>
+		                         <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
 		                         <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
 		                    </tr>
 		                    <tr>
@@ -411,6 +411,12 @@ function gympress_display_upgrade() {
 								'default' => 1,
 								'sanitize_callback' => 'gympress_boolean',
 							),
+							'scroll_to_top' => array(
+								'type' => 'checkbox',
+								'label' => __('Enable Scroll To Top', 'gympress'),
+								'default' => 0,
+								'sanitize_callback' => 'gympress_boolean',
+							),
 							'copyright' => array(
                                 'type' => 'textarea',
                                 'label' => __('Footer Copyright Text (Validated that it\'s HTML Allowed)', 'gympress'),
@@ -529,56 +535,88 @@ function gympress_display_upgrade() {
                                 'default' => '1', 
                                 'sanitize_callback' => 'absint',
                             ),
+						),
+					),
+					'single_blog' => array(
+						'title' => __('Single Blog', 'gympress'),
+						'description' => __('Single Blog page Related Posts options', 'gympress'),
+						'fields' => array(
 							'single_featured_image' => array(
 								'type' => 'checkbox',
 								'label' => __('Enable Single Post Featured Image', 'gympress'),
 								'default' => 1,
 								'sanitize_callback' => 'gympress_boolean',
 							),
-                            'single_featured_image_size' => array(
-                                'type' => 'radio',
-                                'label' => __('Choose the featured image display type for Single Page ', 'gympress'),
-                                'choices' => array(
-                                    '1' => __('Large Featured Image', 'gympress'),
-                                    '2' => __('Small Featured Image', 'gympress'),       
-                                ),
-                                'default' => '1', 
-                                'sanitize_callback' => 'absint',  
-                            ),
-                             'author_bio_box' => array(
-                                'type' => 'checkbox',
-                                'label' => __(' Enable Author Bio Box below single post', 'gympress'),
-                                'description' => __('Show Author information box below single post.', 'gympress'),
-                                'default' => 0,
-                                'sanitize_callback' => 'gympress_boolean',    
-                            ),
-                            'related_posts' => array(
-                                'type' => 'checkbox',
-                                'label' => __('Show Related posts', 'gympress'),
-                                'description' => __('Show related posts.', 'gympress'),
-                                'default' => 0, 
-                                'sanitize_callback' => 'gympress_boolean', 
-                            ),
-                            'related_posts_hierarchy' => array(
-                                'type' => 'radio',
-                                'label' => __('Related Posts Must Be Shown As:', 'gympress'),
-                                'choices' => array(
-                                    '1' => __('Related Posts By Tags', 'gympress'),
-                                    '2' => __('Related Posts By Categories', 'gympress'),      
-                                ),
-                               'default' => '1', 
-                               'sanitize_callback' => 'absint',    
-                            ),
-                            'comments' => array(
-                                'type' => 'checkbox',
-                                'label' => __(' Show Comments', 'gympress'),
-                                'description' => __('Show Comments', 'gympress'),
-                                'default' => 1,  
-                                'sanitize_callback' => 'gympress_boolean',
-                            ),
+							'single_featured_image_size' => array(
+								'type' => 'radio',
+								'label' => __('Choose the featured image display type for Single Page ', 'gympress'),
+								'choices' => array(
+									'1' => __('Large Featured Image', 'gympress'),
+									'2' => __('Small Featured Image', 'gympress'),       
+								),
+								'default' => '1', 
+								'sanitize_callback' => 'absint',  
+							),
+							'social_sharing_box' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Social Sharing Box below single post', 'gympress'),
+								'default' => 0,
+								'sanitize_callback' => 'gympress_boolean',    
+							),
+							'facebook_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Facebook Sharing option below single post', 'gympress'),
+								'default' => 0,
+								'sanitize_callback' => 'gympress_boolean',    
+							),
+							'twitter_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Twitter Sharing option below single post', 'gympress'),
+								'default' => 0,
+								'sanitize_callback' => 'gympress_boolean',    
+							),
+							'linkedin_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Linkedin Sharing option below single post', 'gympress'),
+								'default' => 0,
+								'sanitize_callback' => 'gympress_boolean',    
+							),
+							'google-plus_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Google Plus Sharing option below single post', 'gympress'),
+								'default' => 0,
+								'sanitize_callback' => 'gympress_boolean',    
+							),
+							'email_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Email Sharing option below single post', 'gympress'),
+								'default' => 0,
+								'sanitize_callback' => 'gympress_boolean',    
+							),
+							'author_bio_box' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Author Bio Box below single post', 'gympress'),
+								'default' => 0,
+								'sanitize_callback' => 'gympress_boolean',    
+							),
+							'related_posts' => array(
+								'type' => 'checkbox',
+								'label' => __('Show Related posts', 'gympress'),
+								'default' => 0, 
+								'sanitize_callback' => 'gympress_boolean', 
+							),
+							'related_posts_hierarchy' => array(
+								'type' => 'radio',
+								'label' => __('Related Posts Must Be Shown As:', 'gympress'),
+								'choices' => array(
+									'1' => __('Related Posts By Tags', 'gympress'),
+									'2' => __('Related Posts By Categories', 'gympress'),      
+								),
+								'default' => '1', 
+								'sanitize_callback' => 'absint',    
+							),
 						),
 					),
-
 				)
 			),
 		) 
